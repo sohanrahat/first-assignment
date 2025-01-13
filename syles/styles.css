@@ -159,6 +159,8 @@ nav {
     margin-right: 160px;    
 }
 .nav-button {
+    width: 105px;
+    height: 47px;
     background-color: white;
     border: 1px solid #006a50;
     border-radius: 8px;
@@ -166,7 +168,7 @@ nav {
     color: #006a50;
     font-weight: semibold;
     font-size: 16px;
-    padding: 30px 15px;
+    padding: auto;
 }
 
 body {
@@ -364,6 +366,7 @@ banner {
 
 .newsletter {
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     background-color: #c6e4d6;
     width: 1150px;
@@ -388,5 +391,22 @@ banner {
     color: #ffffff;
     border: none;
     border-radius: 20px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+hr {
+    color: rgba(14, 14, 14, 10%);
+    width: 1000px;
+    height: 0;
+}
+
+.icons {
+    display: inline;
+    gap: 50px;
 }
 

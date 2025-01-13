@@ -360,3 +360,33 @@ banner {
     background-color: #ffffff;
 }
 
+/* newsletter */
+
+.newsletter {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #c6e4d6;
+    width: 1150px;
+    height: 200px;
+    border-radius: 24px;
+    padding-top: 20px;
+
+}
+
+.email {
+    width: 540px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.subscribe {
+    width: 135px;
+    height: 50px;
+    background-color: #006a50;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+

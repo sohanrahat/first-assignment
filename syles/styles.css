@@ -169,12 +169,17 @@ nav {
     padding: 30px 15px;
 }
 
+body {
+    background-color: #f1f1f3;
+    width: 1440px;
+}
+
 /* main section */
 
 main {
     margin-left: 160px;
     margin-right: 160px;
-}
+≈}
 
 /* banner section */
 
@@ -291,6 +296,7 @@ banner {
 /* Yunus section */
 
 .yunus {
+    margin-top: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     text-align: left center;
@@ -298,6 +304,8 @@ banner {
     background-repeat: no-repeat;
     background-position: top left;
     content gap: 10px;
+    padding: 24px;
+    
 }
 
 /* News Container */

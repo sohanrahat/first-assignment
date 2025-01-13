@@ -321,3 +321,42 @@ banner {
     width: 408px;
     height: 306px;
 }
+
+/* DONATE */
+
+.donate-now{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.amounts {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.amount {
+    width: auto;
+    height: auto;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.amount:hover {
+    background-color: #c6e4d6;
+}
+
+.taka {
+    border: none;
+    width: 930px;
+    height: 58px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+

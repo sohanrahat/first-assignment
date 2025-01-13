@@ -111,6 +111,17 @@
 
 /* common shared styles */
 
+    .shared-button {
+        background-color: #006a50;
+        border: none;
+        border-radius: 8px;
+        font-family: "Fira Sans";
+        color: white;
+        font-weight: semibold;
+        font-size: 16px;
+        padding: 30px 15px;
+    }
+
 /* nav section */
 
 nav {
@@ -130,9 +141,32 @@ nav {
     padding: 30px 15px;
 }
 
-.banner {
+/* banner section */
+
+banner {
     background-color: #C6E4D6;
     border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+    padding: 100px 80px;
 
+}
+
+.banner-h1 {
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-weight: bold;
+    color:black;
+}
+
+.banner-p {
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: medium;
+    color: rgba(14, 14, 14 , 50%);
 }
 

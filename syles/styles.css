@@ -120,6 +120,20 @@
         font-weight: semibold;
         font-size: 16px;
         padding: 30px 15px;
+
+    }
+
+    .readmore-button {
+        background-color: #006a50;
+        width: 139px;
+        height: 48px;
+        border: none;
+        border-radius: 8px;
+        font-family: "Fira Sans";
+        color: white;
+        font-weight:bold;
+        font-size: 18px;
+        
     }
 
     .section-title {
@@ -284,4 +298,18 @@ banner {
     background-repeat: no-repeat;
     background-position: top left;
     content gap: 10px;
+}
+
+/* News Container */
+
+.news-flash {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.newsimage {
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
 }

@@ -273,3 +273,15 @@ banner {
     
     
 }
+
+/* Yunus section */
+
+.yunus {
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left center;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    content gap: 10px;
+}
